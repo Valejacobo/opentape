@@ -1,4 +1,4 @@
-CineTape Readme
+OpenTape Readme
 Version 1.1 Release
 Created by Valentin Jacobo Barthe
 
