@@ -1,4 +1,4 @@
-#include "SevSeg.h"
+#include "libraries/SevSeg.h"
 SevSeg sevseg;
 //SevSeg.h is the library used to drive numbers into seven segments displays
 
