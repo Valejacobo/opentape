@@ -21,9 +21,9 @@ int aLastState;
 int bState;
 
 //Display Setup, number of display digits, pins used to output signal to it and various display settings
-byte numDigits = 4;
-byte digitPins[] = {7, 8, 9, 10};
-byte segmentPins[] = { A0, A1, A2, A3, A4, A5, A6, A7 };
+byte numDigits = 2;
+byte digitPins[] = {7, 8};
+byte segmentPins[] = { A0, A1, A2, A3, A4, A5, A6, A7};
 bool resistorsOnSegments = true;
 byte hardwareConfig = COMMON_CATHODE;
 sevseg.begin(hardwareConfig, numDigits, digitPins, segmentPins, resistorsOnSegments);
